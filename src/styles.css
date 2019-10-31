@@ -53,7 +53,7 @@ h1 {
 
 .taskdone {
   background-color: rgb(50, 50, 50);
-  color: #fff;
+  color: rgb(223, 223, 223);
   text-decoration: line-through;
   padding: 10px;
 }
