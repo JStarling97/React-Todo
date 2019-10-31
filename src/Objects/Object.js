@@ -1,4 +1,4 @@
-const TodoObjects = [
+const todoObject = [
     {
     task: "Work",
     id: 1,
@@ -15,3 +15,5 @@ const TodoObjects = [
         completed: false
     }
 ]
+
+export default todoObject;
