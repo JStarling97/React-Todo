@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import todoObject from './Objects/Object';
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
+import "./styles.css"
 
 class App extends Component {
   // you will need a place to store your state in this component.
@@ -12,7 +13,6 @@ class App extends Component {
     super();
     this.state = {
       task: todoObject,
-      otherState: "The Other State"
     };
     this.toggleDone = this.toggleDone.bind(this);
   }

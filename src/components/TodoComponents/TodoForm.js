@@ -35,6 +35,7 @@ class TodoForm extends Component {
                 type="text"
                 name="task"
                 value={this.state.taskName}
+                placeholder="Enter Task Here"
             />
             <button type="submit">Add Task</button>
         </form>

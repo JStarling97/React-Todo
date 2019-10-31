@@ -2,8 +2,8 @@ import React from "react";
 
 const Todo = props => {
     let verboseClassName = "task";
-    if (props.task.completed) {
-        verboseClassName = verboseClassName + " done";
+    if (props.task.done) {
+        verboseClassName = verboseClassName + "done";
     }
 
     const handleClick = () => {
