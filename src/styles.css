@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 36px;
+  max-width: 665px;
+  margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+}
+
+.clear-btn {
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    background: darkcyan;
+    padding: 10px;
+    border: none;
+    opacity: 1;
+}
+.clear-btn:hover {
+    opacity: 0.9;
+    
+}
+
+.task-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task {
+    background-color: darkgrey;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.taskdone {
+  background-color: rgb(50, 50, 50);
+  color: rgb(223, 223, 223);
+  text-decoration: line-through;
+  padding: 10px;
+}
